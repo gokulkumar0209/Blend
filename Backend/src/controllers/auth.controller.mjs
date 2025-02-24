@@ -40,15 +40,40 @@ export const signup = async (req, res) => {
 			await newUser.save();
 			return res.status(201).json({ message: "User created successfully" });
 		}
-		
 	} catch (err) {
 		console.error(err);
-        res.status(500).json({ message: "Server error" });
+		res.status(500).json({ message: "Server error" });
 	}
 };
 
 export const login = async (req, res) => {
-	return res.send("Login");
+	// console.log("Login");
+	
+	try {
+		const { email, password } = req.body;
+		if (!email || !password) {
+			return res
+				.status(400)
+				.json({ message: "All marked * fields are required" });
+		}
+		const user = await User.findOne({ email: email });
+		if (!user) {
+			return res.status(401).json({ message: "Invalid credentials" });
+		}
+		// console.log(user);
+		
+		const isMatch = await bcrypt.compare(password, user.password);
+		
+		
+		if (!isMatch) {
+			return res.status(401).json({ message: "Invalid credentials" });
+		}
+		generateTokensAndSetCookie(user._id, res);
+		return res.json({ message: "Logged in successfully" });
+	} catch (err) {
+		console.error(err);
+		return res.status(500).json({ message: "Server error" });
+	}
 };
 
 export const logout = async (req, res) => {

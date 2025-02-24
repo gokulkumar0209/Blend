@@ -7,8 +7,9 @@ dotenv.config();
 
 const app = express();
 app.use(express.json());
-app.use("/api/auth", authRoutes);
+app.use(express.urlencoded({ extended: true })); // to parse form data(req.body)
 
+app.use("/api/auth", authRoutes);
 
 const port = process.env.PORT || 8081;
 app.listen(port, () => {
