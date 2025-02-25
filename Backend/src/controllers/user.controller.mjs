@@ -1,5 +1,6 @@
 import mongoose from "mongoose";
 import User from "../models/user.model.mjs";
+import Notification from "../models/notifications.model.mjs";
 
 export const getUserProfile = async (req, res) => {
 	const { username } = req.params;
@@ -48,10 +49,17 @@ export const followUnfollowUser = async (req, res) => {
 			await User.findByIdAndUpdate(currentUserId, {
 				$push: { following: userToFollowId },
 			});
-			//  Send notification
+
 			await User.findByIdAndUpdate(userToFollowId, {
 				$push: { followers: currentUserId },
 			});
+			const newNotification = new Notification({
+				type: "follow",
+				from: currentUserId,
+				to: userToFollowId,
+			});
+			await newNotification.save();
+			//  ToDo: Retuen the id of the user as response
 			return res.status(200).json({ message: "User followed" });
 		}
 	} catch (err) {
