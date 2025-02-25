@@ -1,4 +1,4 @@
-import { generateTokensAndSetCookie } from "../../lib/utils/generateToken.mjs";
+import { generateTokensAndSetCookie } from "../lib/utils/generateToken.mjs";
 import User from "../models/user.model.mjs";
 import bcrypt from "bcrypt";
 
@@ -48,7 +48,7 @@ export const signup = async (req, res) => {
 
 export const login = async (req, res) => {
 	// console.log("Login");
-	
+
 	try {
 		const { email, password } = req.body;
 		if (!email || !password) {
@@ -61,10 +61,9 @@ export const login = async (req, res) => {
 			return res.status(401).json({ message: "Invalid credentials" });
 		}
 		// console.log(user);
-		
+
 		const isMatch = await bcrypt.compare(password, user.password);
-		
-		
+
 		if (!isMatch) {
 			return res.status(401).json({ message: "Invalid credentials" });
 		}
@@ -77,5 +76,25 @@ export const login = async (req, res) => {
 };
 
 export const logout = async (req, res) => {
-	return res.send("Logout");
+	try {
+		res.cookie("jwt", "", { maxAge: 0 });
+		return res.status(200).json({ message: "Logged out successfully" });
+	} catch (err) {
+		console.error(err);
+		return res.status(500).json({ message: "Server error" });
+	}
+};
+
+export const getMe = async (req, res) => {
+	try{
+		const user= req.user
+		if(!user){
+            return res.status(401).json({message: "Not authorized"})
+        }
+		return res.json(user)
+	}
+	catch(err){
+        console.error(err)
+        return res.status(500).json({message: "Server error"})
+    }
 };
