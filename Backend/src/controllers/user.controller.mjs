@@ -67,3 +67,29 @@ export const followUnfollowUser = async (req, res) => {
 		return res.status(500).json({ message: "Server error" });
 	}
 };
+
+export const getSuggestedUsers = async (req, res) => {
+	try {
+		const userId = req.user._id;
+		const usersFollowedByMe = await User.findById(userId).select("following");
+		const users = await User.aggregate([
+			{
+				$match: {
+					_id: { $ne: userId },
+				},
+			},
+			{
+				$sample: { size: 10 },
+			},
+		]);
+		const filteredUsers = users.filter(
+			(user) => !usersFollowedByMe.following.includes(user._id)
+		);
+		const suggestedUsers = filteredUsers.slice(0, 4);
+		suggestedUsers.forEach((user) => (user.password = null));
+		return res.status(200).json(suggestedUsers);
+	} catch (err) {
+		console.error(err);
+		return res.status(500).json({ message: "Server error" });
+	}
+};
