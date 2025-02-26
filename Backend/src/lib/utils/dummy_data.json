@@ -1,0 +1,602 @@
+[
+	{
+		"username": "ironman",
+		"fullName": "Tony Stark",
+		"email": "tony_stark@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "captainamerica",
+		"fullName": "Steve Rogers",
+		"email": "steve_rogers@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "hulk",
+		"fullName": "Bruce Banner",
+		"email": "bruce_banner@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "blackwidow",
+		"fullName": "Natasha Romanoff",
+		"email": "natasha_romanoff@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "thor",
+		"fullName": "Thor Odinson",
+		"email": "thor_odinson@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "hawkeye",
+		"fullName": "Clint Barton",
+		"email": "clint_barton@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "spiderman",
+		"fullName": "Peter Parker",
+		"email": "peter_parker@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "antman",
+		"fullName": "Scott Lang",
+		"email": "scott_lang@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "doctorstrange",
+		"fullName": "Stephen Strange",
+		"email": "stephen_strange@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "blackpanther",
+		"fullName": "T'Challa",
+		"email": "tchalla@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "scarletwitch",
+		"fullName": "Wanda Maximoff",
+		"email": "wanda_maximoff@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "vision",
+		"fullName": "Vision",
+		"email": "vision@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "captainmarvel",
+		"fullName": "Carol Danvers",
+		"email": "carol_danvers@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "batman",
+		"fullName": "Bruce Wayne",
+		"email": "bruce_wayne@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "superman",
+		"fullName": "Clark Kent",
+		"email": "clark_kent@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "wonderwoman",
+		"fullName": "Diana Prince",
+		"email": "diana_prince@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "theflash",
+		"fullName": "Barry Allen",
+		"email": "barry_allen@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "aquaman",
+		"fullName": "Arthur Curry",
+		"email": "arthur_curry@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "greenlantern",
+		"fullName": "Hal Jordan",
+		"email": "hal_jordan@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "lexluthor",
+		"fullName": "Lex Luthor",
+		"email": "lex_luthor@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "joker",
+		"fullName": "Joker",
+		"email": "joker@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "harleyquinn",
+		"fullName": "Harley Quinn",
+		"email": "harley_quinn@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jamesbond",
+		"fullName": "James Bond",
+		"email": "james_bond@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jacksparrow",
+		"fullName": "Jack Sparrow",
+		"email": "jack_sparrow@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "indianajones",
+		"fullName": "Indiana Jones",
+		"email": "indiana_jones@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "harrypotter",
+		"fullName": "Harry Potter",
+		"email": "harry_potter@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "hermione",
+		"fullName": "Hermione Granger",
+		"email": "hermione_granger@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "ronweasley",
+		"fullName": "Ron Weasley",
+		"email": "ron_weasley@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "frodo",
+		"fullName": "Frodo Baggins",
+		"email": "frodo_baggins@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "gandalf",
+		"fullName": "Gandalf",
+		"email": "gandalf@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "aragorn",
+		"fullName": "Aragorn",
+		"email": "aragorn@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "legolas",
+		"fullName": "Legolas",
+		"email": "legolas@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "gimli",
+		"fullName": "Gimli",
+		"email": "gimli@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "bilbo",
+		"fullName": "Bilbo Baggins",
+		"email": "bilbo_baggins@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "daenerys",
+		"fullName": "Daenerys Targaryen",
+		"email": "daenerys_targaryen@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jonsnow",
+		"fullName": "Jon Snow",
+		"email": "jon_snow@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "tyrion",
+		"fullName": "Tyrion Lannister",
+		"email": "tyrion_lannister@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "cersei",
+		"fullName": "Cersei Lannister",
+		"email": "cersei_lannister@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "aryastark",
+		"fullName": "Arya Stark",
+		"email": "arya_stark@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "sansa",
+		"fullName": "Sansa Stark",
+		"email": "sansa_stark@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "nedstark",
+		"fullName": "Eddard Stark",
+		"email": "eddard_stark@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "heisenberg",
+		"fullName": "Walter White",
+		"email": "walter_white@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jessepinkman",
+		"fullName": "Jesse Pinkman",
+		"email": "jesse_pinkman@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "saulgoodman",
+		"fullName": "Saul Goodman",
+		"email": "saul_goodman@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "hankschrader",
+		"fullName": "Hank Schrader",
+		"email": "hank_schrader@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "rickgrimes",
+		"fullName": "Rick Grimes",
+		"email": "rick_grimes@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "daryldixon",
+		"fullName": "Daryl Dixon",
+		"email": "daryl_dixon@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "michonne",
+		"fullName": "Michonne",
+		"email": "michonne@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "negan",
+		"fullName": "Negan",
+		"email": "negan@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "eleven",
+		"fullName": "Eleven",
+		"email": "eleven@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "mikewheeler",
+		"fullName": "Mike Wheeler",
+		"email": "mike_wheeler@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "dustin",
+		"fullName": "Dustin Henderson",
+		"email": "dustin_henderson@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "lucas",
+		"fullName": "Lucas Sinclair",
+		"email": "lucas_sinclair@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "willbyers",
+		"fullName": "Will Byers",
+		"email": "will_byers@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jimhopper",
+		"fullName": "Jim Hopper",
+		"email": "jim_hopper@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "maxmayfield",
+		"fullName": "Max Mayfield",
+		"email": "max_mayfield@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "sherlock",
+		"fullName": "Sherlock Holmes",
+		"email": "sherlock_holmes@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "watson",
+		"fullName": "John Watson",
+		"email": "john_watson@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "moriarty",
+		"fullName": "Moriarty",
+		"email": "moriarty@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "doctorwho",
+		"fullName": "Doctor Who",
+		"email": "doctor_who@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "themaster",
+		"fullName": "The Master",
+		"email": "the_master@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "riversong",
+		"fullName": "River Song",
+		"email": "river_song@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "buffy",
+		"fullName": "Buffy Summers",
+		"email": "buffy_summers@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "angel",
+		"fullName": "Angel",
+		"email": "angel@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "spike",
+		"fullName": "Spike",
+		"email": "spike@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "willow",
+		"fullName": "Willow Rosenberg",
+		"email": "willow_rosenberg@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "xander",
+		"fullName": "Xander Harris",
+		"email": "xander_harris@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "rossgeller",
+		"fullName": "Ross Geller",
+		"email": "ross_geller@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "rachelgreen",
+		"fullName": "Rachel Green",
+		"email": "rachel_green@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "chandlerbing",
+		"fullName": "Chandler Bing",
+		"email": "chandler_bing@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "joey",
+		"fullName": "Joey Tribbiani",
+		"email": "joey_tribbiani@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "monicageller",
+		"fullName": "Monica Geller",
+		"email": "monica_geller@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "phoebebuffay",
+		"fullName": "Phoebe Buffay",
+		"email": "phoebe_buffay@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "sheldon",
+		"fullName": "Sheldon Cooper",
+		"email": "sheldon_cooper@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "leonard",
+		"fullName": "Leonard Hofstadter",
+		"email": "leonard_hofstadter@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "raj",
+		"fullName": "Raj Koothrappali",
+		"email": "raj_koothrappali@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "howard",
+		"fullName": "Howard Wolowitz",
+		"email": "howard_wolowitz@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "captainkirk",
+		"fullName": "Captain Kirk",
+		"email": "captain_kirk@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "spock",
+		"fullName": "Spock",
+		"email": "spock@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "picard",
+		"fullName": "Jean-Luc Picard",
+		"email": "jeanluc_picard@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "data",
+		"fullName": "Data",
+		"email": "data@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "malcolm",
+		"fullName": "Malcolm Reynolds",
+		"email": "malcolm_reynolds@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "inaraserra",
+		"fullName": "Inara Serra",
+		"email": "inara_serra@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "rivertam",
+		"fullName": "River Tam",
+		"email": "river_tam@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "jaynecobb",
+		"fullName": "Jayne Cobb",
+		"email": "jayne_cobb@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "mandalorian",
+		"fullName": "Din Djarin",
+		"email": "din_djarin@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "grogu",
+		"fullName": "Grogu",
+		"email": "grogu@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "obiwan",
+		"fullName": "Obi-Wan Kenobi",
+		"email": "obiwan_kenobi@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "lukeskywalker",
+		"fullName": "Luke Skywalker",
+		"email": "luke_skywalker@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "leiaorgana",
+		"fullName": "Leia Organa",
+		"email": "leia_organa@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "hansolo",
+		"fullName": "Han Solo",
+		"email": "han_solo@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "darthvader",
+		"fullName": "Darth Vader",
+		"email": "darth_vader@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "yoda",
+		"fullName": "Yoda",
+		"email": "yoda@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "chewbacca",
+		"fullName": "Chewbacca",
+		"email": "chewbacca@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "bobafett",
+		"fullName": "Boba Fett",
+		"email": "boba_fett@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "rey",
+		"fullName": "Rey",
+		"email": "rey@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "kyloren",
+		"fullName": "Kylo Ren",
+		"email": "kylo_ren@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "aang",
+		"fullName": "Aang",
+		"email": "aang@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "katara",
+		"fullName": "Katara",
+		"email": "katara@example.com",
+		"password": "hashed_password_here"
+	},
+	{
+		"username": "zuko",
+		"fullName": "Zuko",
+		"email": "zuko@example.com",
+		"password": "hashed_password_here"
+	}
+]
