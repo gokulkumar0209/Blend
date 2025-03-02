@@ -1,11 +1,9 @@
-import { useState } from "react";
-
-import { Autocomplete } from "@heroui/react";
+import React from 'react'
 
 function App() {
-	const [count, setCount] = useState(0);
-
-	return <>App</>;
+  return (
+    <div>App</div>
+  )
 }
 
-export default App;
+export default App
