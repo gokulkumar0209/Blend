@@ -2,14 +2,15 @@ import React, { useState } from "react";
 import { Input, Button } from "@heroui/react";
 import axios from "axios";
 
-const server = "http://localhost:8080";
+const server = "https://blend-iujv.onrender.com";
 function SignupPage() {
 	const [formData, setFormData] = useState({
 		username: "",
-		fullname: "",
+		fullName: "",
 		email: "",
 		password: "",
 	});
+	const [loading, setLoading] = useState(false);
 	const [error, setError] = useState("");
 
 	const handleChange = (field) => (e) => {
@@ -18,14 +19,12 @@ function SignupPage() {
 
 	const handleSubmit = async (e) => {
 		e.preventDefault();
+		setLoading(true);
 		setError("");
 		try {
 			const url = `${server}/api/auth/signup`;
 			const result = await axios.post(url, formData);
-			console.log("Hi");
-
 			console.log(result);
-			console.log("Hello");
 			// Replace this with your signup logic (API call, etc.)
 			if (result.status === 201) {
 				alert("User registered successfully");
@@ -36,6 +35,8 @@ function SignupPage() {
 			}
 		} catch (error) {
 			setError(error.response.data.message);
+		} finally {
+			setLoading(false);
 		}
 
 		// Replace this with your signup logic (API call, etc.)
@@ -60,8 +61,8 @@ function SignupPage() {
 					/>
 					<Input
 						label="Full Name"
-						value={formData.fullname}
-						onChange={handleChange("fullname")}
+						value={formData.fullName}
+						onChange={handleChange("fullName")}
 						required
 					/>
 					<Input
@@ -81,6 +82,7 @@ function SignupPage() {
 					/>
 					{error && <p className="text-red-500">{error}</p>}
 					<Button
+						isLoading={loading}
 						type="submit"
 						color="primary"
 						primary
