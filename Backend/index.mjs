@@ -4,7 +4,7 @@ import connectMongoDB from "./src/db/connectMongoDB.mjs";
 import cookieParser from "cookie-parser";
 import router from "./src/routes/index.routes.mjs";
 import { v2 as cloudinary } from "cloudinary";
-
+import cors from "cors";
 dotenv.config();
 cloudinary.config({
 	cloud_name: process.env.CLOUDINARY_CLOUD_NAME,
@@ -12,6 +12,7 @@ cloudinary.config({
 	api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 const app = express();
+app.use(cors())
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // to parse form data(req.body)
 app.use(cookieParser());
