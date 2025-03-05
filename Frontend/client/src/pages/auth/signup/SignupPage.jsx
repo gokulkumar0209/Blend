@@ -91,6 +91,10 @@ function SignupPage() {
 						Sign Up
 					</Button>
 				</form>
+				<p className="text-white mt-4 font-bold">
+					Already have an account? <a href="/login" className=" text-primary">Login</a> instead
+                    
+				</p>
 			</div>
 		</div>
 	);

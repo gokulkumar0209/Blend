@@ -72,7 +72,22 @@ function LoginPage() {
 					>
 						Login
 					</Button>
+					<Button
+						isLoading={loading}
+						variant="bordered"
+						color="primary"
+						className="py-6 w-full font-semibold text-lg"
+					>
+						Forgot Password?
+					</Button>
 				</form>
+
+				<p className="text-white text-lg mt-4 font-bold">
+					Don't have an account?{" "}
+					<a href="/signup" className="text-primary hover:text-primary-dark">
+						Sign Up
+					</a>
+				</p>
 			</div>
 		</div>
 	);
