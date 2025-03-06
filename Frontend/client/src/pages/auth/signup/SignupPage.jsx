@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Input, Button } from "@heroui/react";
 import axios from "axios";
+import { server } from "../../../lib/utils/utils";
 
-const server = "https://blend-iujv.onrender.com";
 function SignupPage() {
 	const [formData, setFormData] = useState({
 		username: "",
@@ -92,8 +92,11 @@ function SignupPage() {
 					</Button>
 				</form>
 				<p className="text-white mt-4 font-bold">
-					Already have an account? <a href="/login" className=" text-primary">Login</a> instead
-                    
+					Already have an account?{" "}
+					<a href="/login" className=" text-primary">
+						Login
+					</a>{" "}
+					instead
 				</p>
 			</div>
 		</div>

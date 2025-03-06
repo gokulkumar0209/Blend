@@ -1,9 +1,8 @@
 import React, { useState } from "react";
 import { Input, Button } from "@heroui/react";
 import axios from "axios";
-import { FaEnvelope } from "react-icons/fa6";
+import { server } from "../../../lib/utils/utils";
 
-const server = "https://blend-iujv.onrender.com";
 function LoginPage() {
 	const [formData, setFormData] = useState({
 		email: "",
