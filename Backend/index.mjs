@@ -12,7 +12,20 @@ cloudinary.config({
 	api_secret: process.env.CLOUDINARY_API_SECRET,
 });
 const app = express();
-app.use(cors())
+app.use(
+	cors({
+		origin: "*",
+		credentials: true,
+		methods: ["GET", "POST", "PUT", "DELETE"],
+		allowedHeaders: [
+			"Origin",
+			"X-Requested-With",
+			"Content-Type",
+			"Authorization",
+		],
+		exposedHeaders: ["Set-Cookie"],
+	})
+);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true })); // to parse form data(req.body)
 app.use(cookieParser());
